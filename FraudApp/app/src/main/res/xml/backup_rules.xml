@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Exclude sensitive biometric and fraud detection data from backup -->
+    <exclude domain="sharedpref" path="fraud_detection_secure_prefs.xml"/>
+    <exclude domain="database" path="fraud_detection.db"/>
+    <exclude domain="external" path="face_templates"/>
+</full-backup-content>
